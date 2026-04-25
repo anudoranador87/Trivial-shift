@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TriviaShift - Aprende jugando</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    ç
+    <header>
+      <div class="logo">
+        <div class="logo-icon">🎯</div>
+        <h1>Trivia<span>Shift</span></h1>
+      </div>
+      <p>Aprende tu sector jugando</p>
+    </header>
+
+    <main id="game-container">
+      <!-- PASO 1: Pantalla de Configuración -->
+      <section id="setup-screen">
+        <h2>Configuración de la Partida</h2>
+        <div class="input-group">
+          <label for="player1">Jugador 1 (X):</label>
+          <input type="text" id="player1" placeholder="Nombre Jugador 1" />
+        </div>
+        <div class="input-group">
+          <label for="player2">Jugador 2 (O):</label>
+          <input type="text" id="player2" placeholder="Nombre Jugador 2" />
+        </div>
+        <div class="input-group">
+          <label for="sector-select">Selecciona tu Sector:</label>
+          <select id="sector-select">
+            <option value="recepcion">🏨 Recepción Hotelera</option>
+            <option value="fitness">💪 Entrenamiento Personal</option>
+          </select>
+        </div>
+        <button id="start-game">Empezar a Jugar</button>
+      </section>
+
+      <!-- PASO 2: Tablero de Juego (Oculto inicialmente) -->
+      <section id="game-screen" class="hidden">
+        <div id="turn-indicator">
+          Turno de: <span id="current-player-name"></span>
+        </div>
+        <div id="board" class="board">
+          <!-- Las celdas se generarán con JavaScript -->
+          <div class="cell" data-index="0"></div>
+          <div class="cell" data-index="1"></div>
+          <div class="cell" data-index="2"></div>
+          <div class="cell" data-index="3"></div>
+          <div class="cell" data-index="4"></div>
+          <div class="cell" data-index="5"></div>
+          <div class="cell" data-index="6"></div>
+          <div class="cell" data-index="7"></div>
+          <div class="cell" data-index="8"></div>
+        </div>
+      </section>
+
+      <!-- PASO 3: Modal de Pregunta (Oculto inicialmente) -->
+      <div id="question-modal" class="modal hidden">
+        <div class="modal-content">
+          <h3 id="question-text">¿Pregunta aquí?</h3>
+          <div id="options-container">
+            <!-- Opciones de respuesta aquí -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Desarrollado por Jose María Aparicio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
