@@ -2,9 +2,9 @@
 
 > Trivia game built on a Tic-Tac-Toe board. Two players compete by answering professional scenarios — only a correct answer earns the cell.
 
-**Live demo:** _coming soon_
+**Live demo:** [https://anudoranador87.github.io/Trivial-shift/](https://anudoranador87.github.io/Trivial-shift/)
 
-> **Status:** Active development — game logic 80% complete. See [What's next](#whats-next).
+> **Status:** Completed — Game logic 100% functional. See [What's next](#whats-next).
 
 ---
 
