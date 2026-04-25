@@ -301,8 +301,8 @@ const SECTORES = {
       {
         pregunta: "Un cliente llega borracho y molestando a otros. ¿Qué haces?",
         opciones: [
-          "Servirle otra copa",
-          "Pedirle que se retire a su habitación discretamente y vigilar la situación",
+          "Servirle más bebidas",
+          "Intentar hablar con él en privado y, si persiste, llamar a seguridad",
           "Llamar a la prensa",
         ],
         correcta: 1,
@@ -495,6 +495,297 @@ const SECTORES = {
       },
     ],
   },
+  fitness: {
+    nombre: "Entrenamiento Personal",
+    emoji: "💪",
+    preguntas: [
+      {
+        pregunta: "Un cliente llega sin haber desayunado. ¿Qué haces?",
+        opciones: [
+          "Empiezas el entrenamiento de inmediato",
+          "Le ofreces un snack ligero y esperas 15 minutos antes de empezar",
+          "Le dices que debería haber comido antes",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es el rango de frecuencia cardíaca ideal para cardio?",
+        opciones: [
+          "50-70% de tu FCM",
+          "70-85% de tu FCM",
+          "90-100% de tu FCM",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente se queja de dolor en la rodilla durante sentadillas. ¿Acción inmediata?",
+        opciones: [
+          "Continuar el ejercicio para que se adapte",
+          "Parar, revisar la forma y ajustar la amplitud de movimiento",
+          "Cambiar a un ejercicio más pesado",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "¿Cuánto tiempo debe descansar un cliente entre series de fuerza?",
+        opciones: [
+          "30-45 segundos",
+          "60-90 segundos",
+          "2-3 minutos",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente quiere hacer solo ejercicio de pecho. ¿Qué le recomiendas?",
+        opciones: [
+          "Respetar su deseo, es lo que quiere",
+          "Explicar la importancia del equilibrio muscular y crear un plan balanceado",
+          "Decirle que es imposible",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia del calentamiento previo?",
+        opciones: [
+          "Solo para perder tiempo",
+          "Preparar el cuerpo, aumentar temperatura y prevenir lesiones",
+          "No es necesario si estás en forma",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente tiene una lesión previa en el hombro. ¿Qué haces?",
+        opciones: [
+          "Evitas completamente ejercicios de hombro",
+          "Preguntas detalles, adaptas los ejercicios y posiblemente consultas con un fisio",
+          "Empiezas con pesos pesados para fortalecer",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuántas veces a la semana debe entrenar un principiante?",
+        opciones: [
+          "1-2 veces",
+          "3-4 veces",
+          "6-7 veces",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente no ve resultados después de 2 semanas. ¿Qué le dices?",
+        opciones: [
+          "Que abandone, no funciona",
+          "Que sea paciente, los cambios tardan 4-6 semanas mínimo",
+          "Que pague más por resultados garantizados",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia de la hidratación durante el ejercicio?",
+        opciones: [
+          "No es importante",
+          "Mantener el rendimiento, regular temperatura y prevenir deshidratación",
+          "Solo si tienes sed",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente quiere perder 10kg en 2 semanas. ¿Qué le recomiendas?",
+        opciones: [
+          "Un plan extremo para lograrlo",
+          "Un déficit calórico moderado y realista de 0.5-1kg por semana",
+          "Que coma solo proteína",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es el mejor momento para entrenar?",
+        opciones: [
+          "Siempre a las 6 AM",
+          "El que mejor se adapte a su rutina y consistencia",
+          "Nunca por la noche",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente tiene mareos durante el entrenamiento. ¿Qué haces?",
+        opciones: [
+          "Continúa para que se acostumbre",
+          "Paras, lo sientas, le das agua y evalúas qué pasó",
+          "Lo envías a casa",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia del estiramiento post-entrenamiento?",
+        opciones: [
+          "No sirve para nada",
+          "Reducir tensión muscular, mejorar flexibilidad y recuperación",
+          "Solo para gente mayor",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente quiere entrenar con dolor muscular del día anterior. ¿Qué le aconsejas?",
+        opciones: [
+          "Que descanse completamente",
+          "Que haga ejercicio ligero o diferente grupo muscular",
+          "Que entrene igual de fuerte",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuánta proteína debe consumir un cliente en construcción muscular?",
+        opciones: [
+          "0.5g por kg de peso",
+          "1.6-2.2g por kg de peso",
+          "4g por kg de peso",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente se aburre del mismo programa. ¿Qué le sugieres?",
+        opciones: [
+          "Que continúe igual",
+          "Variar ejercicios, series, repeticiones o intensidad cada 4-6 semanas",
+          "Que deje de entrenar",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia del descanso y recuperación?",
+        opciones: [
+          "No es importante, solo entrena",
+          "Es cuando el músculo crece y se recupera el sistema nervioso",
+          "Solo para gente perezosa",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente tiene un evento importante en 4 semanas. ¿Qué haces?",
+        opciones: [
+          "Cambias completamente su programa",
+          "Adaptas su plan para maximizar resultados en ese plazo",
+          "Le dices que es imposible",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es el mejor ejercicio para principiantes?",
+        opciones: [
+          "Los más complicados",
+          "Movimientos compuestos con buena forma: sentadillas, flexiones, filas",
+          "Solo máquinas",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente tiene presión arterial alta. ¿Qué precauciones tomas?",
+        opciones: [
+          "No lo entrenas",
+          "Monitoreas, evitas ejercicios de Valsalva extremo y consultas con su médico",
+          "Lo entrenas igual que a los demás",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuándo es el mejor momento para hacer cardio?",
+        opciones: [
+          "Siempre antes de pesas",
+          "Depende del objetivo: antes para quemar más grasa o después para no afectar fuerza",
+          "Nunca",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente quiere suplementos para ganar músculo. ¿Qué le dices?",
+        opciones: [
+          "Que son la solución mágica",
+          "Que primero debe tener dieta y entrenamiento en orden, luego considerar suplementos",
+          "Que no sirven",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia de la progresión en el entrenamiento?",
+        opciones: [
+          "No importa",
+          "Aumentar gradualmente peso, repeticiones o intensidad para continuar mejorando",
+          "Siempre hacer lo mismo",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente tiene poco tiempo disponible. ¿Qué le recomiendan?",
+        opciones: [
+          "Que no entrene",
+          "Entrenamientos cortos pero intensos, 3-4 veces por semana",
+          "Que se tome un año sabático",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es el mejor tipo de cardio para quemar grasa?",
+        opciones: [
+          "Solo correr",
+          "Cualquiera que sea consistente: caminar, nadar, ciclismo, HIIT",
+          "No hay cardio efectivo",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente se lesiona durante una sesión. ¿Cuál es tu responsabilidad?",
+        opciones: [
+          "Ignorarlo y continuar",
+          "Parar, evaluar, documentar y derivar a un profesional si es necesario",
+          "Culparlo de la lesión",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuánto debe durar una sesión de entrenamiento típica?",
+        opciones: [
+          "15 minutos",
+          "45-60 minutos",
+          "2-3 horas",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta:
+          "Un cliente quiere entrenar todos los días sin descanso. ¿Qué haces?",
+        opciones: [
+          "Lo permites",
+          "Explicas la importancia del descanso y creas un programa con días de recuperación",
+          "Lo entrenas igual",
+        ],
+        correcta: 1,
+      },
+      {
+        pregunta: "¿Cuál es la importancia de la evaluación inicial?",
+        opciones: [
+          "No es necesaria",
+          "Conocer objetivos, limitaciones, historial y crear un plan personalizado",
+          "Solo para cobrar más",
+        ],
+        correcta: 1,
+      },
+    ],
+  },
 };
 
 const gameState = {
@@ -502,66 +793,189 @@ const gameState = {
   jugadorActual: "X",
   nombres: { X: "", O: "" },
   esActivo: true,
+  preguntasUsadas: [],
+  sectorActual: "recepcion",
 };
 
-//Aqui es donde vamos a iniciar la partida empezar a jugar
+// Combinaciones ganadoras en tic-tac-toe
+const WINNING_COMBINATIONS = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6],
+];
 
+// Iniciar la partida
 const empiezoPartida = document.getElementById("start-game");
 const screenConfig = document.getElementById("setup-screen");
 const screenGame = document.getElementById("game-screen");
-const turnoPlayer = document.getElementById("current-player-name"); // habra que traerlo tambien!!
+const turnoPlayer = document.getElementById("current-player-name");
+const sectorSelect = document.getElementById("sector-select");
+
 empiezoPartida.addEventListener("click", () => {
+  const player1 = document.getElementById("player1").value.trim();
+  const player2 = document.getElementById("player2").value.trim();
+
+  if (!player1 || !player2) {
+    alert("Por favor, ingresa los nombres de ambos jugadores");
+    return;
+  }
+
+  gameState.nombres.X = player1;
+  gameState.nombres.O = player2;
+  gameState.sectorActual = sectorSelect.value;
+  gameState.preguntasUsadas = [];
+
   screenConfig.classList.add("hidden");
   screenGame.classList.remove("hidden");
-
-  gameState.nombres.X = document.getElementById("player1").value;
-  gameState.nombres.O = document.getElementById("player2").value;
-
-  //hay que meter al player1 en el padre, el value en el span. que es el nombre
   turnoPlayer.textContent = gameState.nombres.X;
 });
 
-//PASO 3: Seleccionar las celdas y crear un array con ellas del 1 al 9, traemos todas del HTML
-//POR cada  celda agregamos un eventListener con un forEach
+// Seleccionar las celdas
 const celdas = document.querySelectorAll(".cell");
 
 celdas.forEach((celda) => {
   celda.addEventListener("click", () => {
-    if (gameState.tablero[celda.dataset.index] === null) {
-      renderTarjetas(celda.dataset.index);
+    const index = celda.dataset.index;
+    if (gameState.tablero[index] === null && gameState.esActivo) {
+      renderTarjetas(index);
     }
   });
 });
 
-//PASO 4 RENDERIZADO DE renderTarjetas
-
-let contador = 0; // vive fuera para que no se reinicie dentro cada vez que se llama
+// Variables para el modal
+let currentCellIndex = null;
+let currentQuestion = null;
 const textPreguntas = document.getElementById("question-text");
 const opcionesContainer = document.getElementById("options-container");
 const modal = document.getElementById("question-modal");
 
 function renderTarjetas(index) {
-  let seleccionPreguntas = SECTORES.recepcion.preguntas[contador];
-  textPreguntas.textContent = seleccionPreguntas.pregunta;
-  seleccionPreguntas.opciones.forEach((opcion, indiceOpcion) => {
-    const creamosBoton = document.createElement("button");
-    creamosBoton.textContent = opcion;
-    creamosBoton.addEventListener("click", () => {
-      validarRespuesta(indiceOpcion, seleccionPreguntas.correcta, index);
+  currentCellIndex = index;
+  const preguntas = SECTORES[gameState.sectorActual].preguntas;
+
+  // Obtener una pregunta que no se haya usado
+  let preguntaIndex;
+  do {
+    preguntaIndex = Math.floor(Math.random() * preguntas.length);
+  } while (gameState.preguntasUsadas.includes(preguntaIndex) && gameState.preguntasUsadas.length < preguntas.length);
+
+  if (gameState.preguntasUsadas.length >= preguntas.length) {
+    gameState.preguntasUsadas = [];
+  }
+
+  gameState.preguntasUsadas.push(preguntaIndex);
+  currentQuestion = preguntas[preguntaIndex];
+
+  textPreguntas.textContent = currentQuestion.pregunta;
+
+  // Limpiar opciones anteriores
+  opcionesContainer.innerHTML = "";
+
+  currentQuestion.opciones.forEach((opcion, indiceOpcion) => {
+    const boton = document.createElement("button");
+    boton.textContent = opcion;
+    boton.addEventListener("click", () => {
+      validarRespuesta(indiceOpcion, currentQuestion.correcta);
     });
-    opcionesContainer.appendChild(creamosBoton);
+    opcionesContainer.appendChild(boton);
   });
-  // quitar el hidden
+
   modal.classList.remove("hidden");
-  contador += 1;
 }
 
-//PASO 5 Y MAS IMPORTANTE, VALIDAR RESPUESTA
+function validarRespuesta(indiceOpcion, correcta) {
+  const botones = document.querySelectorAll("#options-container button");
 
-function validarRespuesta(indiceOpcion, correcta, index) {
-  modal.classList.add("hidden");
+  // Deshabilitar todos los botones
+  botones.forEach((btn) => (btn.disabled = true));
 
-  if (indiceOpcion === selecionPreguntas.correcta) {
-    marcarGanador(index);
+  // Mostrar feedback visual
+  botones.forEach((btn, idx) => {
+    if (idx === correcta) {
+      btn.classList.add("correcto");
+    } else if (idx === indiceOpcion && indiceOpcion !== correcta) {
+      btn.classList.add("incorrecto");
+    }
+  });
+
+  // Esperar 1.5 segundos antes de cerrar el modal
+  setTimeout(() => {
+    modal.classList.add("hidden");
+
+    if (indiceOpcion === correcta) {
+      marcarCelda(currentCellIndex);
+      if (!checkWinner()) {
+        switchTurn();
+      }
+    } else {
+      switchTurn();
+    }
+  }, 1500);
+}
+
+function marcarCelda(index) {
+  gameState.tablero[index] = gameState.jugadorActual;
+  const celda = document.querySelector(`[data-index="${index}"]`);
+  celda.textContent = gameState.jugadorActual;
+  celda.classList.add(`marcada-${gameState.jugadorActual.toLowerCase()}`);
+}
+
+function checkWinner() {
+  for (let combo of WINNING_COMBINATIONS) {
+    const [a, b, c] = combo;
+    if (
+      gameState.tablero[a] &&
+      gameState.tablero[a] === gameState.tablero[b] &&
+      gameState.tablero[a] === gameState.tablero[c]
+    ) {
+      // Ganador encontrado
+      gameState.esActivo = false;
+      const ganador = gameState.nombres[gameState.tablero[a]];
+      setTimeout(() => {
+        alert(`¡${ganador} ha ganado! 🎉`);
+        resetGame();
+      }, 500);
+      return true;
+    }
   }
+
+  // Verificar si es empate
+  if (gameState.tablero.every((celda) => celda !== null)) {
+    gameState.esActivo = false;
+    setTimeout(() => {
+      alert("¡Es un empate! 🤝");
+      resetGame();
+    }, 500);
+    return true;
+  }
+
+  return false;
+}
+
+function switchTurn() {
+  gameState.jugadorActual = gameState.jugadorActual === "X" ? "O" : "X";
+  turnoPlayer.textContent = gameState.nombres[gameState.jugadorActual];
+}
+
+function resetGame() {
+  gameState.tablero = [null, null, null, null, null, null, null, null, null];
+  gameState.jugadorActual = "X";
+  gameState.esActivo = true;
+  gameState.preguntasUsadas = [];
+
+  celdas.forEach((celda) => {
+    celda.textContent = "";
+    celda.classList.remove("marcada-x", "marcada-o");
+  });
+
+  screenGame.classList.add("hidden");
+  screenConfig.classList.remove("hidden");
+  document.getElementById("player1").value = "";
+  document.getElementById("player2").value = "";
+  turnoPlayer.textContent = gameState.nombres.X;
 }
