@@ -76,7 +76,7 @@ Win detection uses a fixed array of the 8 possible winning combinations and chec
 
 | Sector | Questions |
 |--------|-----------|
-| 🏨 Hotel Reception | 50 real-world scenarios |
+| 🏨 Hotel Reception | 10 real-world scenarios |
 | 💪 Personal Training | In progress |
 
 Questions are written as workplace situations, not trivia facts — players have to reason, not memorize.
@@ -93,10 +93,8 @@ The question bank for Hotel Reception is drawn directly from situations I handle
 
 ## What's next
 
-- Complete `validarRespuesta` — answer validation + cell marking
-- Complete `checkWinner` — three-in-a-row detection
-- Replace `alert()` feedback with in-page result display
-- Add "Play again" without full page reload
+- Replace `alert()` win/draw feedback with in-page modal display
+- Add "Play again" without full page reload (preserve player names)
 - Expand the Personal Training sector to 50 questions
 - Score tracker across multiple rounds
 
